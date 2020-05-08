@@ -1,2 +1,2 @@
 # intrepidcode
-<b>an empty shell<b>
+<b>the mind wakes<b>
