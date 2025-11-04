@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 
 
@@ -20,7 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Create SwiftUI view
+        let quoteView = QuoteView()
+
+        // Create window and set root view controller
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UIHostingController(rootView: quoteView)
+        window?.makeKeyAndVisible()
+
         return true
     }
 
