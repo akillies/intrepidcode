@@ -16,6 +16,8 @@
 		224625E71DDE3A43001AFB37 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224625E61DDE3A43001AFB37 /* TodayViewController.swift */; };
 		224625EA1DDE3A43001AFB37 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224625E81DDE3A43001AFB37 /* MainInterface.storyboard */; };
 		224625EE1DDE3A43001AFB37 /* QOTDext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 224625E11DDE3A43001AFB37 /* QOTDext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA0000031DDD5470001AFB37 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000011DDD5470001AFB37 /* Quote.swift */; };
+		AA0000041DDD5470001AFB37 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000021DDD5470001AFB37 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		224625E61DDE3A43001AFB37 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		224625E91DDE3A43001AFB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		224625EB1DDE3A43001AFB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000011DDD5470001AFB37 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		AA0000021DDD5470001AFB37 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				224625CB1DDD5470001AFB37 /* AppDelegate.swift */,
 				224625CD1DDD5470001AFB37 /* ViewController.swift */,
+				AA0000011DDD5470001AFB37 /* Quote.swift */,
+				AA0000021DDD5470001AFB37 /* QuoteView.swift */,
 				224625CF1DDD5470001AFB37 /* Main.storyboard */,
 				224625D21DDD5470001AFB37 /* Assets.xcassets */,
 				224625D41DDD5470001AFB37 /* LaunchScreen.storyboard */,
@@ -232,6 +238,8 @@
 			files = (
 				224625CE1DDD5470001AFB37 /* ViewController.swift in Sources */,
 				224625CC1DDD5470001AFB37 /* AppDelegate.swift in Sources */,
+				AA0000031DDD5470001AFB37 /* Quote.swift in Sources */,
+				AA0000041DDD5470001AFB37 /* QuoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -365,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -383,7 +391,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = intrepid.qotd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -396,7 +404,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = intrepid.qotd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
